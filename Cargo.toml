@@ -45,7 +45,7 @@ enum-iterator = "0.6.0"
 serde = { version = "1.0", features = ["derive"] }
 tokio = { version = "1.0.0", features = ["macros"] }
 ed25519 = "1.0.3"
-trait-async = "0.1.24"
+async-trait = "0.1.86"
 futures = "0.3"
 rand = { version = "0.8.2", features = ["small_rng"] }
 lazy_static = "1.4.0"
@@ -57,5 +57,3 @@ anyhow = "1.0"
 env_logger = "0.8.2"
 clap = "2.33.3"
 rpassword = "0.0.4"
-
-
